@@ -145,6 +145,7 @@ public class myClass {
 	 */
 	public static class Product {
 		String name;
+		int productID;
 	}
 	/**
 	 * Perscription class
