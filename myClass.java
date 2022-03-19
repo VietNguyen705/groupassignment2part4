@@ -71,7 +71,7 @@ public class myClass {
 		}
 
 		/**
-		 * When a new product is added to the inventory of the pharmacy, add the product to the database and it’s associated information.
+		 * When a new product is added to the inventory of the pharmacy, add the product to the database and itâ€™s associated information.
 		 * @param productID of the product
 		 * @param name of the product
 		 */
@@ -207,7 +207,7 @@ public class myClass {
 	 */
 	public static void orderItem(String productID) {}
 	/**
-	 * When the System detects that the product’s expiration date has passed, mark the current inventory as expired and needing replacement
+	 * When the System detects that the productâ€™s expiration date has passed, mark the current inventory as expired and needing replacement
 	 * @param productID of the product
 	 */
 	public static void markExpired(String productID) {}
@@ -236,11 +236,6 @@ public class myClass {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Customer asd = new Customer("harry", "!23", "asdfads@fasd", 5, "girls");
-		System.out.println(asd.name);
-		System.out.println(asd.age);
-		System.out.println(asd.phone);
-		System.out.println(asd.sex);
-		System.out.println(asd.email);
+		
 	}
 }
